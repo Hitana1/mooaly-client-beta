@@ -1,0 +1,37 @@
+{
+    "page-title": "Privacy policy",
+    "title": "Finny.pro privacy policy",
+    "introduction": {
+        "title": "1. Introduction",
+        "content": "This Privacy Policy outlines the information that the Budget Tracker Website (Finny.pro) collects, uses, and shares about you, and explains your rights with respect to that information. The Website is committed to protecting your privacy and ensuring that your personal information is handled in a responsible and secure manner."
+    },
+    "information-collected": {
+        "title": "2. Information Collected",
+        "content": "The Website collects information from you in several ways, including when you create an account, when you use the Website to track your budget, and when you interact with the Website in other ways. The information we collect may include your name, email address, password, and information about your spending habits, income, and budget goals."
+    },
+    "use-of-information": {
+        "title": "3. Use of Information",
+        "content": "The information we collect is used to provide you with the services offered by the Website, to improve the Website, and to personalize your experience on the Website. We may also use your information for research and analytics purposes, or to send you promotional communications about the Website."
+    },
+    "sharing-of-information": {
+        "title": "4. Sharing of Information",
+        "content": "The Website will not sell, rent, or share your personal information with third parties."
+    },
+    "access-and-control-of-your-information": {
+        "title": "5. Access and Control of Your Information",
+        "content": "You have the right to access and control your personal information collected by the Website. You may request that we delete your personal information or make changes to it by contacting us through the contact information provided on the Website."
+    },
+    "data-security": {
+        "title": "6. Data Security",
+        "content": "The Website takes reasonable steps to secure your personal information from unauthorized access, use, or disclosure. However, no data transmission over the internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information, we cannot guarantee its security."
+    },
+    "changes-to-this-privacy-policy": {
+        "title": "7. Changes to This Privacy Policy",
+        "content": "The Website may update this Privacy Policy from time to time. We will notify you of any changes by posting the updated Privacy Policy on the Website."
+    },
+    "contact-us": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions or concerns about this Privacy Policy, please contact us through the contact information provided on the Website."
+    },
+    "afterword": "This Privacy Policy was last updated on {{date}}"
+}

@@ -1,0 +1,49 @@
+@import "../../assets/scss/colors.module";
+@import "../../assets/scss/mixins.module";
+@import "../../assets/scss/breakpoints.module";
+.PrivacyPolicy {
+    max-width: 1280px;
+    margin: 0 auto;
+    .title {
+        text-align: center;
+        margin-bottom: 48px;
+        color: $light-theme-gray-8;
+    }
+    .policyTitle {
+        margin-bottom: 12px;
+        line-height: 22px;
+        color: $light-theme-gray-8;
+    }
+    .policyContent {
+        line-height: 22px;
+        color: $light-theme-gray-11;
+        margin-bottom: 36px;
+    }
+    .afterword {
+        line-height: 22px;
+        color: $light-theme-gray-11;
+    }
+}
+@include dark-theme {
+    .PrivacyPolicy {
+        .title {
+            color: $dark-theme-gray-2;
+        }
+        .policyTitle {
+            color: $dark-theme-gray-2;
+        }
+        .policyContent,
+        .afterword {
+            color: $dark-theme-gray-0;
+        }
+    }
+}
+@include md-breakpoint {
+    .PrivacyPolicy {
+        .title {
+            font-size: 26px;
+            line-height: 28px;
+            margin-bottom: 42px;
+        }
+    }
+}

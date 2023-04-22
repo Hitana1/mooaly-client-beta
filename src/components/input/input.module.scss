@@ -1,0 +1,156 @@
+@import "../../assets/scss/colors.module";
+@import "../../assets/scss/mixins.module";
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    .passwordVisibilityBtn {
+        position: absolute;
+        right: 12px;
+    }
+    .Input {
+        background-color: $light-theme-gray-0;
+        border-radius: 8px;
+        border: 1px solid $light-theme-gray-2;
+        color: $light-theme-gray-8;
+        font-weight: 500;
+        width: 100%;
+        &::placeholder {
+            color: $light-theme-gray-4;
+            opacity: 1;
+        }
+        &:-ms-input-placeholder {
+            color: $light-theme-gray-4;
+        }
+        &::-ms-input-placeholder {
+            color: $light-theme-gray-4;
+        }
+        &.withPasswordBtn {
+            padding-right: 52px !important;
+        }
+        // Sizes
+        &.large {
+            padding: 0 14px;
+            height: 48px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &.medium {
+            padding: 0 14px;
+            height: 36px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        &.small {
+            padding: 0 12px;
+            height: 32px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        // States
+        &:hover:enabled {
+            border-color: $light-theme-gray-3;
+        }
+        &:disabled {
+            color: $light-theme-gray-4;
+            cursor: not-allowed;
+        }
+        &:disabled::placeholder {
+            color: $light-theme-gray-4;
+        }
+        &:disabled:-ms-input-placeholder {
+            color: $light-theme-gray-4;
+        }
+        &:disabled::-ms-input-placeholder {
+            color: $light-theme-gray-4;
+        }
+        &:focus,
+        &:focus:hover {
+            outline: none;
+            border-color: $clr-persian-blue;
+        }
+        &.hasError {
+            border-color: $clr-alizarin-red;
+            color: $clr-alizarin-red;
+        }
+        &.hasError:hover {
+            border-color: $clr-alizarin-red;
+        }
+        &.hasError::placeholder {
+            color: $clr-alizarin-red;
+        }
+        &.hasError:-ms-input-placeholder {
+            color: $clr-alizarin-red;
+        }
+        &.hasError::-ms-input-placeholder {
+            color: $clr-alizarin-red;
+        }
+        &.hasWarning {
+            border-color: $clr-shiny-orange;
+        }
+        &.hasWarning:hover {
+            border-color: $clr-shiny-orange;
+        }
+    }
+}
+@include dark-theme {
+    .wrapper {
+        .Input {
+            background-color: $dark-theme-gray-10;
+            color: $dark-theme-gray-2;
+            border-color: $dark-theme-gray-8;
+            &::placeholder {
+                color: $dark-theme-gray-6;
+                opacity: 1;
+            }
+            &:-ms-input-placeholder {
+                color: $dark-theme-gray-6;
+            }
+            &::-ms-input-placeholder {
+                color: $dark-theme-gray-6;
+            }
+            // States
+            &:hover:enabled {
+                border-color: $dark-theme-gray-7;
+            }
+            &:disabled {
+                color: $dark-theme-gray-7;
+            }
+            &:disabled::placeholder {
+                color: $dark-theme-gray-7;
+            }
+            &:disabled:-ms-input-placeholder {
+                color: $dark-theme-gray-7;
+            }
+            &:disabled::-ms-input-placeholder {
+                color: $dark-theme-gray-7;
+            }
+            &:focus,
+            &:focus:hover {
+                border-color: $clr-persian-blue;
+            }
+            &.hasError {
+                border-color: $clr-alizarin-red;
+                color: $clr-alizarin-red;
+            }
+            &.hasError:hover {
+                border-color: $clr-alizarin-red;
+            }
+            &.hasError::placeholder {
+                color: $clr-alizarin-red;
+            }
+            &.hasError:-ms-input-placeholder {
+                color: $clr-alizarin-red;
+            }
+            &.hasError::-ms-input-placeholder {
+                color: $clr-alizarin-red;
+            }
+            &.hasWarning {
+                border-color: $clr-shiny-orange;
+            }
+            &.hasWarning:hover {
+                border-color: $clr-shiny-orange;
+            }
+        }
+    }
+}

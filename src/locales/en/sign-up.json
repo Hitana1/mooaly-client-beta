@@ -1,0 +1,36 @@
+{
+    "page-title": "Sign up",
+    "form": {
+        "title": "Sign up",
+        "subtitle": "Sign up and start tracking your future",
+        "name-input-placeholder": "Name",
+        "email-input-placeholder": "Email",
+        "password-input-placeholder": "Password",
+        "submit": "Sign up",
+        "sign-in": {
+            "text": "Already have an account?",
+            "link": "Sign in"
+        },
+        "validation-errors": {
+            "required-field": "Required field",
+            "invalid-email": "Invalid email",
+            "short-password": "At least 6 characters",
+            "long-password": "Maximum 120 characters",
+            "short-name": "At least 2 letters",
+            "long-name": "Maximum 120 characters"
+        }
+    },
+    "server-errors": {
+        "email-is-taken": "Email is already taken",
+        "empty-name": "Name is required",
+        "name-is-not-string": "Name must be string",
+        "short-name": "Name is too short",
+        "long-name": "Name is too long",
+        "empty-email": "Email is required",
+        "invalid email": "Invalid email",
+        "empty-password": "Password is required",
+        "password-is-not-string": "Password must be string",
+        "short-password": "Password is too short",
+        "long-password": "Password is too long"
+    }
+}

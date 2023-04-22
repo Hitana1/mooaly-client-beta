@@ -1,0 +1,59 @@
+/* Breakpoints */
+$xsBreakpoint: 480px;
+$smBreakpoint: 640px;
+$mdBreakpoint: 768px;
+$lgBreakpoint: 1024px;
+$xlBreakpoint: 1280px;
+$xxlBreakpoint: 1536px;
+$xxxlBreakpoint: 1920px;
+/* Mixins */
+@mixin xs-breakpoint {
+    @media only screen and (max-width: $xsBreakpoint) {
+        @content;
+    }
+}
+@mixin sm-breakpoint {
+    @media only screen and (max-width: $smBreakpoint) {
+        @content;
+    }
+}
+@mixin md-breakpoint {
+    @media only screen and (max-width: $mdBreakpoint) {
+        @content;
+    }
+}
+@mixin lg-breakpoint {
+    @media only screen and (max-width: $lgBreakpoint) {
+        @content;
+    }
+}
+@mixin xl-breakpoint {
+    @media only screen and (max-width: $xlBreakpoint) {
+        @content;
+    }
+}
+@mixin xxl-breakpoint {
+    @media only screen and (max-width: $xxlBreakpoint) {
+        @content;
+    }
+}
+@mixin xxxl-breakpoint {
+    @media only screen and (max-width: $xxxlBreakpoint) {
+        @content;
+    }
+}
+@mixin min-max-breakpoint($min-width-bp, $max-width-bp) {
+    @media only screen and (min-width: $min-width-bp) and (max-width: $max-width-bp) {
+        @content;
+    }
+}
+/* To use in JS */
+:export {
+    xsBreakpoint: $xsBreakpoint;
+    smBreakpoint: $smBreakpoint;
+    mdBreakpoint: $mdBreakpoint;
+    lgBreakpoint: $lgBreakpoint;
+    xlBreakpoint: $xlBreakpoint;
+    xxlBreakpoint: $xxlBreakpoint;
+    xxxlBreakpoint: $xxxlBreakpoint;
+}

@@ -1,0 +1,78 @@
+@import "../../../../assets/scss/colors.module";
+@import "../../../../assets/scss/mixins.module";
+@import "../../../../assets/scss/breakpoints.module";
+.MobileMenu {
+    width: 100%;
+    height: 100vh;
+    background-color: $light-theme-gray-0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 16px;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    .header {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        .navLink {
+            color: $light-theme-gray-8;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding: 12px 0;
+            &.isActive {
+                color: $clr-azure;
+            }
+        }
+    }
+    .divider {
+        display: none;
+        border: 1px solid $light-theme-gray-2;
+        width: 100%;
+    }
+    .authButtons {
+        display: none;
+        flex-direction: column;
+        justify-content: stretch;
+        gap: 12px;
+    }
+}
+@include dark-theme {
+    .MobileMenu {
+        background-color: $dark-theme-gray-11;
+        .navLinks {
+            .navLink {
+                color: $dark-theme-gray-2;
+                &.isActive {
+                    color: $clr-azure;
+                }
+            }
+        }
+        .divider {
+            border-color: $dark-theme-gray-8;
+        }
+    }
+}
+@include md-breakpoint {
+    .MobileMenu {
+        display: flex;
+    }
+}
+@include xs-breakpoint {
+    .MobileMenu {
+        .divider {
+            display: block;
+        }
+        .authButtons {
+            display: flex;
+        }
+    }
+}

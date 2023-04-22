@@ -1,0 +1,83 @@
+.Typography {
+    &.headline_1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    &.headline_2 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    &.headline_3 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    &.headline_4 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    &.headline_5 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.00472425em;
+    }
+    &.headline_6 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 18px;
+    }
+    &.headline_7 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &.text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &.text_bold {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &.subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.009em;
+    }
+    &.subtitle_semi_bold {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    &.button_label {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.009em;
+    }
+    &.mini_button_label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.009em;
+    }
+    &.description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    &.mini_description {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+    }
+}

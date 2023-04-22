@@ -1,0 +1,36 @@
+{
+    "page-title": "Регистрация",
+    "form": {
+        "title": "Регистрация",
+        "subtitle": "Создайте аккаунт и начните отслеживать свое будущее",
+        "name-input-placeholder": "Имя",
+        "email-input-placeholder": "Эл. почта",
+        "password-input-placeholder": "Пароль",
+        "submit": "Регистрация",
+        "sign-in": {
+            "text": "Уже есть аккаунт?",
+            "link": "Войти"
+        },
+        "validation-errors": {
+            "required-field": "Обязательное поле",
+            "invalid-email": "Недопустимая эл. почта",
+            "short-password": "Хотя бы 6 символов",
+            "long-password": "Максимум 120 символов",
+            "short-name": "Хотя бы 2 буквы",
+            "long-name": "Максимум 120 символов"
+        }
+    },
+    "server-errors": {
+        "email-is-taken": "Аккаунт с такой эл. почтой уже есть",
+        "empty-name": "Требуется имя пользователя",
+        "name-is-not-string": "Имя должно быть строкой",
+        "short-name": "Слишком короткое имя",
+        "long-name": "Слишком длинное имя",
+        "empty-email": "Требуется эл. почта",
+        "invalid email": "Недопустимый адрес эл. почты",
+        "empty-password": "Требуется пароль",
+        "password-is-not-string": "Пароль должен быть строкой",
+        "short-password": "Слишком короткий пароль",
+        "long-password": "Слишком длинный пароль"
+    }
+}

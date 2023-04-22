@@ -1,0 +1,17 @@
+@import "../../assets/scss/colors.module";
+@import "../../assets/scss/mixins.module";
+.DropdownMenu {
+    width: 200px;
+    background-color: $light-theme-gray-0;
+    box-shadow: 0 4px 32px rgba(0, 16, 61, 0.16);
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+@include dark-theme {
+    .DropdownMenu {
+        background-color: $dark-theme-gray-10;
+    }
+}

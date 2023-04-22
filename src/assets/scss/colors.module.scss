@@ -1,0 +1,103 @@
+/* Light theme / Grayscale */
+$light-theme-gray-0: #ffffff;
+$light-theme-gray-1: #f2f3f7;
+$light-theme-gray-2: #e2e2ea;
+$light-theme-gray-3: #c6cbd9;
+$light-theme-gray-4: #9a9aaf;
+$light-theme-gray-5: #7e7e8f;
+$light-theme-gray-6: #656575;
+$light-theme-gray-7: #535362;
+$light-theme-gray-8: #2e2e3a;
+$light-theme-gray-9: #262631;
+$light-theme-gray-10: #16161e;
+$light-theme-gray-11: #07070c;
+/* Dark theme / Grayscale */
+$dark-theme-gray-0: #ffffff;
+$dark-theme-gray-1: #f5f5ff;
+$dark-theme-gray-2: #d0d0da;
+$dark-theme-gray-3: #a9a9b7;
+$dark-theme-gray-4: #8a8a98;
+$dark-theme-gray-5: #70707c;
+$dark-theme-gray-6: #5b5b65;
+$dark-theme-gray-7: #40404a;
+$dark-theme-gray-8: #2c2c35;
+$dark-theme-gray-9: #1e1e24;
+$dark-theme-gray-10: #0f0f13;
+$dark-theme-gray-11: #000000;
+/* Accents */
+$clr-azure: #0062ff;
+$clr-spring-green: #62f783;
+$clr-amethyst: #a162f7;
+$clr-mango-tango: #ff8743;
+$clr-zink-yellow: #fff736;
+$clr-persian-blue: #4807ea;
+$clr-sea-green: #15ffab;
+$clr-magenta: #e80fe9;
+$clr-strawberry-red: #db3031;
+$clr-dark-amber: #fe7e07;
+$clr-alizarin-red: #fd4438;
+$clr-frosty-skies: #06d7f6;
+$clr-crayola-wild-strawberries: #ff5caa;
+$clr-verdepom: #24ca49;
+$clr-shiny-orange: #ffb443;
+$clr-thistle: #c2b7cd;
+$clr-spunky-red-orange: #ff7a2f;
+$clr-moderate-aquamarine: #3dd598;
+/* Special */
+$clr-light-theme-primary-btn-bg: #384cff;
+$clr-light-theme-primary-btn-bg-hover: #6b8cff;
+$clr-dark-theme-primary-btn-bg: #3506ef;
+$clr-dark-theme-primary-btn-bg-hover: #384cff;
+/* To use in JS */
+:export {
+    /* Light theme / Grayscale */
+    lightThemeGray0: $light-theme-gray-0;
+    lightThemeGray1: $light-theme-gray-1;
+    lightThemeGray2: $light-theme-gray-2;
+    lightThemeGray3: $light-theme-gray-3;
+    lightThemeGray4: $light-theme-gray-4;
+    lightThemeGray5: $light-theme-gray-5;
+    lightThemeGray6: $light-theme-gray-6;
+    lightThemeGray7: $light-theme-gray-7;
+    lightThemeGray8: $light-theme-gray-8;
+    lightThemeGray9: $light-theme-gray-9;
+    lightThemeGray10: $light-theme-gray-10;
+    lightThemeGray11: $light-theme-gray-11;
+    /* Dark theme / Grayscale */
+    darkThemeGray0: $dark-theme-gray-0;
+    darkThemeGray1: $dark-theme-gray-1;
+    darkThemeGray2: $dark-theme-gray-2;
+    darkThemeGray3: $dark-theme-gray-3;
+    darkThemeGray4: $dark-theme-gray-4;
+    darkThemeGray5: $dark-theme-gray-5;
+    darkThemeGray6: $dark-theme-gray-6;
+    darkThemeGray7: $dark-theme-gray-7;
+    darkThemeGray8: $dark-theme-gray-8;
+    darkThemeGray9: $dark-theme-gray-9;
+    darkThemeGray10: $dark-theme-gray-10;
+    darkThemeGray11: $dark-theme-gray-11;
+    /* Accents */
+    clrAzure: $clr-azure;
+    clrSpringGreen: $clr-spring-green;
+    clrAmethyst: $clr-amethyst;
+    clrMangoTango: $clr-mango-tango;
+    clrZinkYellow: $clr-zink-yellow;
+    clrPersianBlue: $clr-persian-blue;
+    clrSeaGreen: $clr-sea-green;
+    clrMagenta: $clr-magenta;
+    clrStrawberryRed: $clr-strawberry-red;
+    clrDarkAmber: $clr-dark-amber;
+    clrAlizarinRed: $clr-alizarin-red;
+    clrFrostySkies: $clr-frosty-skies;
+    clrCrayolaWildStrawberries: $clr-crayola-wild-strawberries;
+    clrVerdpom: $clr-verdepom;
+    clrShinyOrange: $clr-shiny-orange;
+    clrThistle: $clr-thistle;
+    clrSpunkyRedOrange: $clr-spunky-red-orange;
+    clrModerateAquamarine: $clr-moderate-aquamarine;
+    /* Special */
+    clrLightThemePrimaryBtnBg: $clr-light-theme-primary-btn-bg;
+    clrLightThemePrimaryBtnBgHover: $clr-light-theme-primary-btn-bg-hover;
+    clrDarkThemePrimaryBtnBg: $clr-dark-theme-primary-btn-bg;
+    clrDarkThemePrimaryBtnBgHover: $clr-dark-theme-primary-btn-bg-hover;
+}

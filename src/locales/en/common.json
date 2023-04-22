@@ -1,0 +1,106 @@
+{
+    "months": {
+        "jan": {
+            "short": "Jan.",
+            "long": "January"
+        },
+        "feb": {
+            "short": "Feb.",
+            "long": "February"
+        },
+        "mar": {
+            "short": "Mar.",
+            "long": "March"
+        },
+        "apr": {
+            "short": "Apr.",
+            "long": "April"
+        },
+        "may": {
+            "short": "May.",
+            "long": "May"
+        },
+        "jun": {
+            "short": "Jun.",
+            "long": "June"
+        },
+        "jul": {
+            "short": "Jul.",
+            "long": "July"
+        },
+        "aug": {
+            "short": "Aug.",
+            "long": "August"
+        },
+        "sep": {
+            "short": "Sep.",
+            "long": "September"
+        },
+        "oct": {
+            "short": "Oct.",
+            "long": "October"
+        },
+        "nov": {
+            "short": "Nov.",
+            "long": "November"
+        },
+        "dec": {
+            "short": "Dec.",
+            "long": "December"
+        }
+    },
+    "weekdays": {
+        "sun": {
+            "short": "Sun.",
+            "long": "Sunday"
+        },
+        "mon": {
+            "short": "Mon.",
+            "long": "Monday"
+        },
+        "tues": {
+            "short": "Tues.",
+            "long": "Tuesday"
+        },
+        "wed": {
+            "short": "Wed.",
+            "long": "Wednesday"
+        },
+        "thurs": {
+            "short": "Thurs.",
+            "long": "Thursday"
+        },
+        "fri": {
+            "short": "Fri.",
+            "long": "Friday"
+        },
+        "sat": {
+            "short": "Sat.",
+            "long": "Saturday"
+        }
+    },
+    "app-header": {
+        "navbar": {
+            "home": "Home",
+            "about": "About",
+            "pricing": "Pricing",
+            "contact-us": "Contact us",
+            "dashboard": "Dashboard",
+            "transactions": "Transactions",
+            "categories": "Categories"
+        },
+        "controls": {
+            "sign-in": "Sign in",
+            "get-started": "Get started",
+            "settings-overlay": {
+                "dark-theme": "Dark theme",
+                "language": "Language",
+                "back": "Back"
+            },
+            "user-overlay": {
+                "account": "Account",
+                "sign-out": "Sign out"
+            }
+        }
+    }
+}

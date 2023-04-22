@@ -1,0 +1,30 @@
+@import "../../assets/scss/colors.module";
+@import "../../assets/scss/mixins.module";
+@import "../../assets/scss/breakpoints.module";
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.LoadingPage {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    color: $light-theme-gray-5;
+    .icon {
+        animation: rotation 2000ms infinite linear;
+    }
+}
+@include dark-theme {
+    .LoadingPage {
+        color: $dark-theme-gray-3;
+    }
+}
+@include md-breakpoint {
+    .LoadingPage {
+        padding-top: 32px;
+    }
+}

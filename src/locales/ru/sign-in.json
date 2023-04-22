@@ -1,0 +1,30 @@
+{
+    "page-title": "Вход",
+    "form": {
+        "title": "Вход",
+        "subtitle": "Войдите и начните отслеживать свое будущее",
+        "email-input-placeholder": "Эл. почта",
+        "password-input-placeholder": "Пароль",
+        "forgot-password": "Забыли пароль?",
+        "submit": "Войти",
+        "sign-up": {
+            "text": "Нет аккаунта?",
+            "link": "Регистрация"
+        },
+        "validation-errors": {
+            "required-field": "Обязательное поле",
+            "invalid-email": "Недопустимая эл. почта",
+            "short-password": "Хотя бы 6 символов",
+            "long-password": "Максимум 120 символов"
+        }
+    },
+    "server-errors": {
+        "empty-email": "Требуется эл. почта",
+        "invalid email": "Недопустимый адрес эл. почты",
+        "empty-password": "Требуется пароль",
+        "password-is-not-string": "Пароль должен быть строкой",
+        "short-password": "Слишком короткий пароль",
+        "long-password": "Слишком длинный пароль",
+        "invalid-credentials": "Неправильная эл. почта или пароль"
+    }
+}

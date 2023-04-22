@@ -1,0 +1,12 @@
+@import "../../assets/scss/breakpoints.module";
+.Page {
+    padding: 34px 24px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+@include md-breakpoint {
+    .Page {
+        padding: 20px 16px;
+    }
+}

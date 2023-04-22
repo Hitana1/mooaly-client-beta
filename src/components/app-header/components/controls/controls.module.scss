@@ -1,0 +1,72 @@
+@import "../../../../assets/scss/colors.module";
+@import "../../../../assets/scss/mixins.module";
+@import "../../../../assets/scss/breakpoints.module";
+.Controls {
+    grid-column: span 4;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    .mobileMenu {
+        display: none;
+    }
+    .user {
+        height: 36px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $light-theme-gray-8;
+        cursor: pointer;
+        padding: 4px 4px 4px 4px;
+        border-radius: 100px;
+        background-color: $light-theme-gray-2;
+        &:hover {
+            background-color: $light-theme-gray-1;
+        }
+        .avatar {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+            border-radius: 100px;
+        }
+        .name {
+            max-width: 118px;
+            overflow-x: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-right: 6px;
+        }
+    }
+}
+@include dark-theme {
+    .Controls {
+        .user {
+            color: $dark-theme-gray-1;
+            background-color: $dark-theme-gray-8;
+            &:hover {
+                background-color: $dark-theme-gray-7;
+            }
+        }
+    }
+}
+@include md-breakpoint {
+    .Controls {
+        grid-column: span 6;
+        .mobileMenu {
+            display: flex;
+        }
+    }
+}
+@include xs-breakpoint {
+    .Controls {
+        .signInBtn,
+        .signUpBtn {
+            display: none;
+        }
+        .user {
+            .name {
+                display: none;
+            }
+        }
+    }
+}

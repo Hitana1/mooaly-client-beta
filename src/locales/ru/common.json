@@ -1,0 +1,106 @@
+{
+    "months": {
+        "jan": {
+            "short": "Янв.",
+            "long": "Январь"
+        },
+        "feb": {
+            "short": "Фев.",
+            "long": "Февраль"
+        },
+        "mar": {
+            "short": "Мар.",
+            "long": "Март"
+        },
+        "apr": {
+            "short": "Апр.",
+            "long": "Апрель"
+        },
+        "may": {
+            "short": "Май",
+            "long": "Май"
+        },
+        "jun": {
+            "short": "Июнь",
+            "long": "Июнь"
+        },
+        "jul": {
+            "short": "Июль",
+            "long": "Июль"
+        },
+        "aug": {
+            "short": "Авг.",
+            "long": "Август"
+        },
+        "sep": {
+            "short": "Сен.",
+            "long": "Сентябрь"
+        },
+        "oct": {
+            "short": "Окт.",
+            "long": "Октябрь"
+        },
+        "nov": {
+            "short": "Ноя.",
+            "long": "Ноябрь"
+        },
+        "dec": {
+            "short": "Дек.",
+            "long": "Декабрь"
+        }
+    },
+    "weekdays": {
+        "sun": {
+            "short": "Вс.",
+            "long": "Воскресенье"
+        },
+        "mon": {
+            "short": "Пн.",
+            "long": "Понедельник"
+        },
+        "tues": {
+            "short": "Вт.",
+            "long": "Вторник"
+        },
+        "wed": {
+            "short": "Ср.",
+            "long": "Среда"
+        },
+        "thurs": {
+            "short": "Чт.",
+            "long": "Четверг"
+        },
+        "fri": {
+            "short": "Пт.",
+            "long": "Пятница"
+        },
+        "sat": {
+            "short": "Сб.",
+            "long": "Суббота"
+        }
+    },
+    "app-header": {
+        "navbar": {
+            "home": "Главная",
+            "about": "О нас",
+            "pricing": "Тарифы",
+            "contact-us": "Связь",
+            "dashboard": "Дашборд",
+            "transactions": "Транзакции",
+            "categories": "Категории"
+        },
+        "controls": {
+            "sign-in": "Войти",
+            "get-started": "Начать",
+            "settings-overlay": {
+                "dark-theme": "Тёмная тема",
+                "language": "Язык",
+                "back": "Назад"
+            },
+            "user-overlay": {
+                "account": "Аккаунт",
+                "sign-out": "Выйти"
+            }
+        }
+    }
+}

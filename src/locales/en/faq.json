@@ -1,0 +1,28 @@
+{
+    "page-title": "FAQ",
+    "title": "Frequently asked questions",
+    "what-is-finny": {
+        "question": "What is Finny?",
+        "answer": "Finny is a budget tracking website that helps users manage their finances by tracking their income, expenses, and budget."
+    },
+    "how-do-i-sign-up": {
+        "question": "How do I sign up for Finny?",
+        "answer": "To sign up for Finny, simply visit the Finny website and create an account. You will need to provide your name, email address, and password."
+    },
+    "can-i-use-on-mobile": {
+        "question": "Can I use Finny on my mobile device?",
+        "answer": "We are working on creating a mobile application Finny. You will receive an email about the news."
+    },
+    "how-do-i-add-transactions": {
+        "question": "How do I add transactions to Finny?",
+        "answer": "You can add transactions to Finny by manually inputting the details of each transaction, such as the date, amount, and category. You can also link your bank account or credit card to Finny to automatically import transactions."
+    },
+    "how-do-i-categorize-transactions": {
+        "question": "How do I categorize transactions in Finny?",
+        "answer": "You can categorize transactions in your budget tracking website by assigning each transaction to a specific category, such as housing, transportation, or entertainment. This helps you keep track of where your money is going and make more informed decisions about your spending."
+    },
+    "is-finny-secure": {
+        "question": "Is Finny secure?",
+        "answer": "Finny takes the security of your financial information very seriously. They use encryption and other security measures to ensure that your information is protected."
+    }
+}

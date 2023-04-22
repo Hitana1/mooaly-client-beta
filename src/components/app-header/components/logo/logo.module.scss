@@ -1,0 +1,11 @@
+@import "../../../../assets/scss/breakpoints.module";
+.Logo {
+    display: flex;
+    align-items: center;
+    grid-column: span 4;
+}
+@include md-breakpoint {
+    .Logo {
+        grid-column: span 6;
+    }
+}

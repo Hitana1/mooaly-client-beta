@@ -1,0 +1,36 @@
+export enum TypographyVariants {
+    HEADLINE_1,
+    HEADLINE_2,
+    HEADLINE_3,
+    HEADLINE_4,
+    HEADLINE_5,
+    HEADLINE_6,
+    HEADLINE_7,
+    TEXT,
+    TEXT_BOLD,
+    SUBTITLE,
+    SUBTITLE_SEMI_BOLD,
+    BUTTON_LABEL,
+    MINI_BUTTON_LABEL,
+    DESCRIPTION,
+    MINI_DESCRIPTION,
+}
+
+// eslint-disable-next-line no-unused-vars
+export const typographyElements: { [k in TypographyVariants]: string } = {
+    [TypographyVariants.HEADLINE_1]: "h1",
+    [TypographyVariants.HEADLINE_2]: "h2",
+    [TypographyVariants.HEADLINE_3]: "h3",
+    [TypographyVariants.HEADLINE_4]: "h4",
+    [TypographyVariants.HEADLINE_5]: "h5",
+    [TypographyVariants.HEADLINE_6]: "h6",
+    [TypographyVariants.HEADLINE_7]: "h6",
+    [TypographyVariants.TEXT]: "p",
+    [TypographyVariants.TEXT_BOLD]: "p",
+    [TypographyVariants.SUBTITLE]: "p",
+    [TypographyVariants.SUBTITLE_SEMI_BOLD]: "p",
+    [TypographyVariants.BUTTON_LABEL]: "span",
+    [TypographyVariants.MINI_BUTTON_LABEL]: "span",
+    [TypographyVariants.DESCRIPTION]: "p",
+    [TypographyVariants.MINI_DESCRIPTION]: "p",
+} as const;

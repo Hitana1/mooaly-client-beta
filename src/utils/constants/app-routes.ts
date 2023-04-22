@@ -1,0 +1,15 @@
+export enum AppRoutes {
+    HOME = "/",
+    SIGN_IN = "/sign-in",
+    SIGN_UP = "/sign-up",
+    PASSWORD_RECOVERY = "/password-recovery",
+    DASHBOARD = "/dashboard",
+    ABOUT = "/about",
+    PRICING = "/pricing",
+    TRANSACTIONS = "/transactions",
+    CATEGORIES = "/categories",
+    NOT_FOUND = "*",
+    FAQ = "/faq",
+    TERMS_OF_USE = "/terms-of-use",
+    PRIVACY_POLICY = "/privacy-policy",
+}

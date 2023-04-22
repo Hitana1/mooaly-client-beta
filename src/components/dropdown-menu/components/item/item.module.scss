@@ -1,0 +1,22 @@
+@import "../../../../assets/scss/colors.module";
+@import "../../../../assets/scss/mixins.module";
+.Item {
+    height: 40px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 14px;
+    color: $light-theme-gray-8;
+    &:hover {
+        background-color: $light-theme-gray-1;
+    }
+}
+@include dark-theme {
+    .Item {
+        color: $dark-theme-gray-2;
+        &:hover {
+            background-color: $dark-theme-gray-9;
+        }
+    }
+}

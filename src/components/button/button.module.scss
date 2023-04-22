@@ -1,0 +1,142 @@
+@import "../../assets/scss/colors.module";
+@import "../../assets/scss/mixins.module";
+/* Mixins */
+@mixin size($padding-x: 0, $height, $width: unset) {
+    padding: 0 $padding-x;
+    height: $height;
+    width: $width;
+}
+@mixin variant(
+    $bg-color: transparent,
+    $color: transparent,
+    $border-color: transparent,
+    $hover-bg-color: transparent,
+    $hover-border-color: transparent,
+    $disabled-opacity: 0.3,
+    $disabled-color: unset,
+    $disabled-bg-color: unset,
+    $disabled-border-color: transparent
+) {
+    background-color: $bg-color;
+    color: $color;
+    border-color: $border-color;
+    &:hover:enabled {
+        background-color: $hover-bg-color;
+        border-color: $hover-border-color;
+    }
+    &:disabled {
+        opacity: $disabled-opacity;
+        border-color: $disabled-border-color;
+    }
+}
+/* Styles */
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    &:disabled {
+        cursor: not-allowed;
+    }
+    &.rounded {
+        border-radius: 100px;
+    }
+    /* Sizes */
+    &.small {
+        @include size($padding-x: 20px, $height: 32px);
+        &.withIconOnly {
+            @include size($height: 32px, $width: 32px);
+            min-width: 32px;
+        }
+    }
+    &.medium {
+        @include size($padding-x: 20px, $height: 36px);
+        &.withIconOnly {
+            @include size($height: 36px, $width: 36px);
+            min-width: 36px;
+        }
+    }
+    &.large {
+        @include size($padding-x: 24px, $height: 48px);
+        &.withIconOnly {
+            @include size($height: 48px, $width: 48px);
+            min-width: 48px;
+        }
+    }
+    /* Variants */
+    &.primary {
+        @include variant(
+            $bg-color: $clr-light-theme-primary-btn-bg,
+            $color: $dark-theme-gray-1,
+            $hover-bg-color: $clr-light-theme-primary-btn-bg-hover
+        );
+    }
+    &.secondary {
+        @include variant(
+            $bg-color: $light-theme-gray-2,
+            $color: $light-theme-gray-8,
+            $hover-bg-color: $light-theme-gray-1,
+            $disabled-color: $light-theme-gray-1,
+            $disabled-bg-color: $light-theme-gray-4
+        );
+    }
+    &.outlined {
+        @include variant(
+            $border-color: $light-theme-gray-2,
+            $color: $light-theme-gray-8,
+            $hover-border-color: $light-theme-gray-3,
+            $disabled-color: $light-theme-gray-8,
+            $disabled-border-color: $light-theme-gray-4
+        );
+    }
+    &.ghost {
+        @include variant(
+            $color: $light-theme-gray-8,
+            $hover-bg-color: $light-theme-gray-1,
+            $disabled-color: $light-theme-gray-7
+        );
+    }
+}
+/* Dark theme */
+@include dark-theme {
+    .Button {
+        /* Variants */
+        &.primary {
+            @include variant(
+                $bg-color: $clr-dark-theme-primary-btn-bg,
+                $color: $dark-theme-gray-1,
+                $hover-bg-color: $clr-dark-theme-primary-btn-bg-hover,
+                $disabled-opacity: 0.4
+            );
+        }
+        &.secondary {
+            @include variant(
+                $bg-color: $dark-theme-gray-8,
+                $color: $dark-theme-gray-1,
+                $hover-bg-color: $dark-theme-gray-7,
+                $disabled-bg-color: $dark-theme-gray-6,
+                $disabled-color: $dark-theme-gray-1
+            );
+        }
+        &.outlined {
+            @include variant(
+                $border-color: $dark-theme-gray-8,
+                $color: $dark-theme-gray-1,
+                $hover-border-color: $dark-theme-gray-7,
+                $disabled-color: $dark-theme-gray-1,
+                $disabled-border-color: $dark-theme-gray-4
+            );
+        }
+        &.ghost {
+            @include variant(
+                $color: $dark-theme-gray-1,
+                $hover-bg-color: $dark-theme-gray-8,
+                $disabled-color: $dark-theme-gray-1
+            );
+        }
+    }
+}

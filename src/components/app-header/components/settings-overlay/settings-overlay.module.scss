@@ -1,0 +1,57 @@
+@import "../../../../assets/scss/colors.module";
+@import "../../../../assets/scss/mixins.module";
+.SettingsOverlay {
+    .item {
+        justify-content: space-between;
+        gap: 8px;
+        &.languageSection {
+            cursor: pointer;
+        }
+        &.language {
+            cursor: pointer;
+            .shortVersion {
+                color: $light-theme-gray-5;
+                text-transform: uppercase;
+            }
+        }
+        &.back {
+            justify-content: flex-start;
+            background-color: $light-theme-gray-1;
+            cursor: pointer;
+        }
+        &.languageSection {
+            cursor: pointer;
+        }
+        &.language {
+            cursor: pointer;
+            .shortVersion {
+                color: $light-theme-gray-5;
+                text-transform: uppercase;
+            }
+        }
+        &.back {
+            justify-content: flex-start;
+            background-color: $light-theme-gray-1;
+            cursor: pointer;
+        }
+    }
+}
+@include dark-theme {
+    .SettingsOverlay {
+        .item {
+            &.language {
+                .shortVariant {
+                    color: $dark-theme-gray-4;
+                }
+            }
+            &.back {
+                background-color: $dark-theme-gray-9;
+            }
+            &.language {
+                .shortVariant {
+                    color: $dark-theme-gray-4;
+                }
+            }
+        }
+    }
+}
